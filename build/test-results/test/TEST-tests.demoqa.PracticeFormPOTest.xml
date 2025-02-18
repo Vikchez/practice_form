@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.demoqa.PracticeFormPOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-18T15:33:01" hostname="MacBook-Pro-Viktoria.local" time="5.569">
+  <properties/>
+  <testcase name="successfulSearchTest()" classname="tests.demoqa.PracticeFormPOTest" time="5.569"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/viktoriastejnbah/IdeaProjects/practice_form/build/downloads/1739892781498_35194_1
+февр. 18, 2025 6:33:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 133, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 133
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=133.0.6943.99 Platform=mac
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.5.1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.25.0 build revision: 8a8aea2337
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on mac (210eddefed7fe2a49c2acb255e6db3ec), downloadsFolder: /Users/viktoriastejnbah/IdeaProjects/practice_form/build/downloads/1739892781498_35194_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=com.codeborne.selenide.ThreadLocalSelenideConfig@29be7749, webDriver=ChromeDriver: chrome on mac (210eddefed7fe2a49c2acb255e6db3ec), proxy=null, downloadsFolder=/Users/viktoriastejnbah/IdeaProjects/practice_form/build/downloads/1739892781498_35194_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+]]></system-err>
+</testsuite>

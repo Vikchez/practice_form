@@ -1,6 +1,7 @@
 package tests.demoqa;
 
 import com.codeborne.selenide.Configuration;
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -19,8 +20,13 @@ public class PracticeFormTest {
 
     @Test
     void successfulSearchTest() {
-        String firstName = "Viktoria";
-        String lastName = "Shteinbah";
+
+        Faker faker = new Faker();
+
+        String firstName = faker.name().firstName(); // Miss Samanta Schmidt
+        String lastName = faker.name().lastName(); // Emory
+
+
         String email = "Shteinbah@mail.ru";
         String phoneNumber = "8911456256";
 
